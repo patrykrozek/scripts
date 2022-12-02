@@ -13,7 +13,7 @@ cat <<- 'EOF' > run.sh
 rm ./bin/main
 g++ ./src/main.cpp -o ./bin/main &&  
 ./bin/main
-EOF 
+EOF
 sudo chmod +x ./run.sh
 
 
